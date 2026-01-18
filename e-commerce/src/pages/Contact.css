@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.contact-hero {
+  height: 35vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1515165562835-c4c3a1bfb07c");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  padding: 70px 8%;
+  background: #f9f9f9;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.contact-details h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.detail-box {
+  margin-bottom: 20px;
+}
+
+.detail-box h4 {
+  color: #4caf50;
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4caf50;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #4caf50;
+}
+
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}

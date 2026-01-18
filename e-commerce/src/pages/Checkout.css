@@ -1,0 +1,9 @@
+.checkout {
+  padding: 40px;
+}
+.checkout button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.whyus-hero {
+  height: 50vh;
+   height: 35vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://images.unsplash.com/photo-1515165562835-c4c3a1bfb07c");
+  background-size: cover;
+  background-position: center;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyus-hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.whyus-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.whyus-hero-content span {
+  color: #4caf50;
+}
+
+.whyus-intro {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.whyus-intro h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.whyus-intro p {
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+}
+
+.whyus-features {
+  padding: 60px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.whyus-stats {
+  background: #4caf50;
+
+  color: #fff;
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.whyus-stats h2 {
+  font-size: 2.5rem;
+}
+
+.whyus-mission {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.whyus-mission h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.whyus-mission p {
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+}
